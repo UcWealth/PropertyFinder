@@ -1,6 +1,6 @@
 using System;
 
-namespace PropertyFinder.Models
+namespace PropertyFinder.Web.Models
 {
     public class ErrorViewModel
     {
