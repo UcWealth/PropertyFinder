@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using PropertyFinder.Data.Entities;
 
 namespace PropertyFinder.Data.DatabaseContexts.AuthenticationDbContext
 {
@@ -8,5 +9,7 @@ namespace PropertyFinder.Data.DatabaseContexts.AuthenticationDbContext
         {
 
         }
+        public DbSet<Property> Properties { get; set; }
+        public DbSet<Contact> Contacts { get; set; }
     }
 }
